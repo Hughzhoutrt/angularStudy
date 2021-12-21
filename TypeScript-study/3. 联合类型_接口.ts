@@ -40,3 +40,5 @@ interface Istate4 {
 
 var obj4:Istate4;
 obj4 = {name:'john', age:1};
+obj4.name = 'Michael';
+// obj4.age = 10 // cannot assign the value because of read-only
