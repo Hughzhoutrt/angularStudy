@@ -8,3 +8,9 @@ class Person {
 
 var p = new Person();
 p.saysth();
+
+class Child extends Person {
+    callParent(){
+        super.saysth();
+    }
+}
